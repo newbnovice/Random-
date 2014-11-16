@@ -12,7 +12,7 @@ class Books(object):
 		oneinput = raw_input(prompt) #asks for user input with a > next to it to look nice.
 		for number in counter:
 			print "#%d: The %s are Coming!" % (number, oneinput) #replaces %d (decimal) 
-																 #replaces %s (string)
+									     #replaces %s (string)
 
 class HistoryBook(Books):
 
@@ -21,9 +21,9 @@ class HistoryBook(Books):
 		whoisswole = raw_input(prompt)
 		for number in counter:
 			print "#%d: %s is swole?!" % (number, whoisswole) #The same thing as the above, just different text.
-		#super(HistoryBook, self).method() #This basically just calls class Books
-										  #.method().
-		#print "Books.altered!"
+		        #super(HistoryBook, self).method() #This basically just calls class Books
+							  #.method().
+			#print "Books.altered!"
 
 library = Books()
 specifics = HistoryBook()
